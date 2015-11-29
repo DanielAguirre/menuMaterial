@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(normalize.css);
+@import url(../node_modules/font-awesome/css/font-awesome.css);
+
+
+html{
+	background-color: #E5E5E5;
+}
+
+.contenedor1{
+	width: 400px;
+}
+
+.menuLateral{
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFFFFF;
+	padding: 0px;
+	margin: 10px;
+}
+
+.menuLateral > li{
+	list-style-type: none;
+	border-top: solid 1px #CFCFCF;
+}
+
+.menuLateral > li > a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	transition: linear 0.1s;
+}
+
+
+.itemActive{
+	border-left: solid 2px #006CFF;
+}
